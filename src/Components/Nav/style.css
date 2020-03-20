@@ -1,0 +1,27 @@
+.MuiAppBar-colorPrimary {
+    background-color: transparent!important; 
+    /* color: blue!important; */
+    color: rgb(34, 34, 34)!important;
+}
+
+.MuiPaper-elevation4  {
+    box-shadow: none!important; 
+}
+
+.MuiBox-root {
+    padding: 24px 0px!important; 
+}
+
+.MuiTab-root {
+    text-transform: none!important; 
+    font-size: 16px!important; 
+}
+
+.PrivateTabIndicator-colorSecondary-96 {
+    background-color: #327ab7!important; 
+}
+
+.MuiTab-textColorInherit.Mui-selected {
+    color:#327ab7!important; 
+    font-weight: bold;
+}

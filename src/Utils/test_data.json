@@ -1,0 +1,1364 @@
+{ 
+    "inputRows": [
+        {
+            "lineId": 0,
+            "prodDesc": "Dicte Mini Skirt Checked-Pale Blue/Black",
+            "deliveryDt": "3/20/2020",
+            "sizeRange": "P-XL [5]",
+            "storeDistro": "Top 30 Stores",
+            "grossNeedByStore": [
+                {
+                    "storeHTMLId": "6001",
+                    "storeId": "6001",
+                    "need": 13.54
+                },
+                {
+                    "storeHTMLId": "6003",
+                    "storeId": "6003",
+                    "need": 2.84
+                },
+                {
+                    "storeHTMLId": "6006",
+                    "storeId": "6006",
+                    "need": 2.84
+                },
+                {
+                    "storeHTMLId": "6007",
+                    "storeId": "6007",
+                    "need": 2.84
+                },
+                {
+                    "storeHTMLId": "6011",
+                    "storeId": "6011",
+                    "need": 2.84
+                },
+                {
+                    "storeHTMLId": "6013",
+                    "storeId": "6013",
+                    "need": 2.84
+                },
+                {
+                    "storeHTMLId": "6016",
+                    "storeId": "6016",
+                    "need": 2.84},
+                {
+                    "storeHTMLId": "6020",
+                    "storeId": "6020",
+                    "need": 2.84},
+                {
+                    "storeHTMLId": "6028",
+                    "storeId": "6028",
+                    "need": 2.84},
+                {
+                    "storeHTMLId": "6029",
+                    "storeId": "6029",
+                    "need": 2.84
+                },
+                {
+                    "storeHTMLId": "6030",
+                    "storeId": "6030",
+                    "need": 2.84
+                },
+                {
+                    "storeHTMLId": "6031",
+                    "storeId": "6031",
+                    "need": 2.84
+                },
+                {
+                    "storeHTMLId": "6035",
+                    "storeId": "6035",
+                    "need": 2.84
+                },
+                {
+                    "storeHTMLId": "6038",
+                    "storeId": "6038",
+                    "need": 1.24
+                },
+                {
+                    "storeHTMLId": "6042",
+                    "storeId": "6042",
+                    "need": 2.84
+                },
+                {
+                    "storeHTMLId": "6046",
+                    "storeId": "6046",
+                    "need": 13.54
+                },
+                {
+                    "storeHTMLId": "6052",
+                    "storeId": "6052",
+                    "need": 2.84
+                },
+                {
+                    "storeHTMLId": "6054",
+                    "storeId": "6054",
+                    "need": 2.84
+                },
+                {
+                    "storeHTMLId": "6056",
+                    "storeId": "6056",
+                    "need": 2.84
+                },
+                {
+                    "storeHTMLId": "6058",
+                    "storeId": "6058",
+                    "need": 2.84
+                },
+                {
+                    "storeHTMLId": "6059",
+                    "storeId": "6059",
+                    "need": 2.84
+                },
+                {
+                    "storeHTMLId": "6061",
+                    "storeId": "6061",
+                    "need": 2.84
+                },
+                {
+                    
+                    "storeHTMLId": "6066",
+                    "storeId": "6066",
+                    "need": 2.84
+                },
+                {
+                    "storeHTMLId": "6082",
+                    "storeId": "6082",
+                    "need": 13.54
+                },
+                {
+                    "storeHTMLId": "6089",
+                    "storeId": "6089",
+                    "need": 13.54
+                },
+                {
+                    "storeHTMLId": "6101",
+                    "storeId": "6101",
+                    "need": 13.54
+                },
+                {
+                    "storeHTMLId": "6131",
+                    "storeId": "6131",
+                    "need": 13.54
+                },
+                {
+                    "storeHTMLId": "6199",
+                    "storeId": "6199",
+                    "need": 445
+                },
+                {
+                    "storeHTMLId": "6221",
+                    "storeId": "6221",
+                    "need": 2.84
+                },
+                {
+                    "storeHTMLId": "6222",
+                    "storeId": "6222",
+                    "need": 2.84
+                }],
+            
+            "numPackConfigs": 5,
+            "packConfigId": "PC:0"
+        },
+        {
+            "lineId": 1,
+            "prodDesc": "Dicte Overshirt Checked-Pale Blue/Black",
+            "deliveryDt": "3/20/2020",
+            "sizeRange": "P-XL [5]",
+            "storeDistro": "Top 30 Stores",
+            "grossNeedByStore": [
+                {
+                    "storeHTMLId": "6001",
+                    "storeId": "6001",
+                    "need": 14.23
+                },
+                {   "storeHTMLId": "6003",
+                    "storeId": "6003",
+                    "need": 2.99
+                },
+                {
+                    "storeHTMLId": "6006",
+                    "storeId": "6006",
+                    "need": 2.99
+                },
+                {
+                    "storeHTMLId": "6007",
+                    "storeId": "6007",
+                    "need": 2.99
+                },
+                {
+                    "storeHTMLId": "6011",
+                    "storeId": "6011",
+                    "need": 2.99
+                },
+                {
+                    "storeHTMLId": "6013",
+                    "storeId": "6013",
+                    "need": 2.99
+                },
+                {
+                    "storeHTMLId": "6016",
+                    "storeId": "6016",
+                    "need": 2.99
+                },
+                {
+                    "storeHTMLId": "6020",
+                    "storeId": "6020",
+                    "need": 2.99
+                },
+                {
+                    "storeHTMLId": "6028",
+                    "storeId": "6028",
+                    "need": 2.99
+                },
+                {
+                    "storeHTMLId": "6029",
+                    "storeId": "6029",
+                    "need": 2.99
+                },
+                {
+                    "storeHTMLId": "6030",
+                    "storeId": "6030",
+                    "need": 2.99
+                },
+                {
+                    "storeHTMLId": "6031",
+                    "storeId": "6031",
+                    "need": 2.99},
+                {
+                    "storeHTMLId": "6035",
+                    "storeId": "6035",
+                    "need": 2.99},
+                {
+                    "storeHTMLId": "6038",
+                    "storeId": "6038",
+                    "need": 1.3
+                },
+                {
+                    "storeHTMLId": "6042",
+                    "storeId": "6042",
+                    "need": 2.99
+                },
+                {
+                    "storeHTMLId": "6046",
+                    "storeId": "6046",
+                    "need": 14.23
+                },
+                {
+                    "storeHTMLId": "6052",
+                    "storeId": "6052",
+                    "need": 2.99
+                },
+                {
+                    "storeHTMLId": "6054",
+                    "storeId": "6054",
+                    "need": 2.99
+                },
+                {
+                    "storeHTMLId": "6056",
+                    "storeId": "6056",
+                    "need": 2.99
+                },
+                {
+                    "storeHTMLId": "6058",
+                    "storeId": "6058",
+                    "need": 2.99
+                },
+                {
+                    "storeHTMLId": "6059",
+                    "storeId": "6059",
+                    "need": 2.99
+                },
+                {
+                    "storeHTMLId": "6061",
+                    "storeId": "6061",
+                    "need": 2.99
+                },
+                {
+                    "storeHTMLId": "6066",
+                    "storeId": "6066",
+                    "need": 2.99
+                },
+                {
+                    "storeHTMLId": "6082",
+                    "storeId": "6082",
+                    "need": 14.23
+                },
+                {
+                    "storeHTMLId": "6089",
+                    "storeId": "6089",
+                    "need": 14.23
+                },
+                {
+                    "storeHTMLId": "6101",
+                    "storeId": "6101",
+                    "need": 14.23
+                },
+                {
+                    "storeHTMLId": "6131",
+                    "storeId": "6131",
+                    "need": 14.23
+                },
+                {
+                    "storeHTMLId": "6199",
+                    "storeId": "6199",
+                    "need": 467.7
+                },
+                {
+                    "storeHTMLId": "6221",
+                    "storeId": "6221",
+                    "need": 2.99
+                },
+                {
+                    "storeHTMLId": "6222",
+                    "storeId": "6222",
+                    "need": 2.99
+                }],
+            "numPackConfigs": 5,
+            "packConfigId": "PC:1"
+        },
+        {
+            "lineId": 2,
+            "prodDesc": "Jada Crossover Rib Knit Top-Mint",
+            "deliveryDt": "3/20/2020",
+            "sizeRange": "P-XL [5]",
+            "storeDistro": "Top 30 Stores",
+            "grossNeedByStore": [
+                {
+                    "storeHTMLId": "6001",
+                    "storeId": "6001",
+                    "need": 22.38
+                },
+                {
+                    "storeHTMLId": "6003",
+                    "storeId": "6003",
+                    "need": 4.69
+                },
+                {
+                    "storeHTMLId": "6006",
+                    "storeId": "6006",
+                    "need": 4.69
+                },
+                {
+                    "storeHTMLId": "6007",
+                    "storeId": "6007",
+                    "need": 4.69
+                },
+                {
+                    "storeHTMLId": "6011",
+                    "storeId": "6011",
+                    "need": 4.69
+                },
+                {
+                    "storeHTMLId": "6013",
+                    "storeId": "6013",
+                    "need": 4.69
+                },
+                {
+                    "storeHTMLId": "6016",
+                    "storeId": "6016",
+                    "need": 4.69
+                },
+                {
+                    "storeHTMLId": "6020",
+                    "storeId": "6020",
+                    "need": 4.69
+                },
+                {
+                    "storeHTMLId": "6028",
+                    "storeId": "6028",
+                    "need": 4.69
+                },
+                {
+                    "storeHTMLId": "6029",
+                    "storeId": "6029",
+                    "need": 4.69
+                },
+                {
+                    "storeHTMLId": "6030",
+                    "storeId": "6030",
+                    "need": 4.69
+                },
+                {
+                    "storeHTMLId": "6031",
+                    "storeId": "6031",
+                    "need": 4.69
+                },
+                {
+                    "storeHTMLId": "6035",
+                    "storeId": "6035",
+                    "need": 4.69
+                },
+                {
+                    "storeHTMLId": "6038",
+                    "storeId": "6038",
+                    "need": 2.04
+                },
+                {
+                    "storeHTMLId": "6042",
+                    "storeId": "6042",
+                    "need": 4.69
+                },
+                {
+                    "storeHTMLId": "6046",
+                    "storeId": "6046",
+                    "need": 22.38
+                },
+                {
+                    "storeHTMLId": "6052",
+                    "storeId": "6052",
+                    "need": 4.69
+                },
+                {
+                    "storeHTMLId": "6054",
+                    "storeId": "6054",
+                    "need": 4.69
+                },
+                {
+                    "storeHTMLId": "6056",
+                    "storeId": "6056",
+                    "need": 4.69
+                },
+                {
+                    "storeHTMLId": "6058",
+                    "storeId": "6058",
+                    "need": 4.69
+                },
+                {
+                    "storeHTMLId": "6059",
+                    "storeId": "6059",
+                    "need": 4.69
+                },
+                {
+                    "storeHTMLId": "6061",
+                    "storeId": "6061",
+                    "need": 4.69
+                },
+                {
+                    "storeHTMLId": "6066",
+                    "storeId": "6066",
+                    "need": 4.69
+                },
+                {
+                    "storeHTMLId": "6082",
+                    "storeId": "6082",
+                    "need": 22.38
+                },
+                {
+                    "storeHTMLId": "6089",
+                    "storeId": "6089",
+                    "need": 22.38
+                },
+                {
+                    "storeHTMLId": "6101",
+                    "storeId": "6101",
+                    "need": 22.38
+                },
+                {
+                    "storeHTMLId": "6131",
+                    "storeId": "6131",
+                    "need": 22.38
+                },
+                {
+                    "storeHTMLId": "6199",
+                    "storeId": "6199",
+                    "need": 735.4
+                },
+                {
+                    "storeHTMLId": "6221",
+                    "storeId": "6221",
+                    "need": 4.69
+                },
+                {
+                    "storeHTMLId": "6222",
+                    "storeId": "6222",
+                    "need": 4.69
+                }],
+            "numPackConfigs": 5,
+            "packConfigId": "PC:2"
+        }, 
+        {
+            "lineId": 3,
+            "prodDesc": "Jolene Ribbed Wrap Midi Skirt-Mint",
+            "deliveryDt": "3/20/2020",
+            "sizeRange": "P-XL [5]",
+            "storeDistro": "Top 30 Stores",
+            "grossNeedByStore": [
+                {
+                    "storeHTMLId": "6001",
+                    "storeId": "6001",
+                    "need": 12.62
+                },
+                {
+                    "storeHTMLId": "6003",
+                    "storeId": "6003",
+                    "need": 2.65
+                },
+                {
+                    "storeHTMLId": "6006",
+                    "storeId": "6006",
+                    "need": 2.65
+                },
+                {
+                    "storeHTMLId": "6007",
+                    "storeId": "6007",
+                    "need": 2.65
+                },
+                {
+                    "storeHTMLId": "6011",
+                    "storeId": "6011",
+                    "need": 2.65
+                },
+                {
+                    "storeHTMLId": "6013",
+                    "storeId": "6013",
+                    "need": 2.65
+                },
+                {
+                    "storeHTMLId": "6016",
+                    "storeId": "6016",
+                    "need": 2.65
+                },
+                {
+                    "storeHTMLId": "6020",
+                    "storeId": "6020",
+                    "need": 2.65
+                },
+                {
+                    "storeHTMLId": "6028",
+                    "storeId": "6028",
+                    "need": 2.65
+                },
+                {
+                    "storeHTMLId": "6029",
+                    "storeId": "6029",
+                    "need": 2.65
+                },
+                {
+                    "storeHTMLId": "6030",
+                    "storeId": "6030",
+                    "need": 2.65
+                },
+                {
+                    "storeHTMLId": "6031",
+                    "storeId": "6031",
+                    "need": 2.65
+                },
+                {
+                    "storeHTMLId": "6035",
+                    "storeId": "6035",
+                    "need": 2.65
+                },
+                {
+                    "storeHTMLId": "6038",
+                    "storeId": "6038",
+                    "need": 1.15
+                },
+                {
+                    "storeHTMLId": "6042",
+                    "storeId": "6042",
+                    "need": 2.65
+                },
+                {
+                    "storeHTMLId": "6046",
+                    "storeId": "6046",
+                    "need": 12.62
+                },
+                {
+                    "storeHTMLId": "6052",
+                    "storeId": "6052",
+                    "need": 2.65
+                },
+                {
+                    "storeHTMLId": "6054",
+                    "storeId": "6054",
+                    "need": 2.65
+                },
+                {
+                    "storeHTMLId": "6056",
+                    "storeId": "6056",
+                    "need": 2.65
+                },
+                {
+                    "storeHTMLId": "6058",
+                    "storeId": "6058",
+                    "need": 2.65
+                },
+                {
+                    "storeHTMLId": "6059",
+                    "storeId": "6059",
+                    "need": 2.65
+                },
+                {
+                    "storeHTMLId": "6061",
+                    "storeId": "6061",
+                    "need": 2.65
+                },
+                {
+                    "storeHTMLId": "6066",
+                    "storeId": "6066",
+                    "need": 2.65
+                },
+                {
+                    "storeHTMLId": "6082",
+                    "storeId": "6082",
+                    "need": 12.62
+                },
+                {
+                    "storeHTMLId": "6089",
+                    "storeId": "6089",
+                    "need": 12.62
+                },
+                {
+                    "storeHTMLId": "6101",
+                    "storeId": "6101",
+                    "need": 12.62
+                },
+                {
+                    "storeHTMLId": "6131",
+                    "storeId": "6131",
+                    "need": 12.62
+                },
+                {
+                    "storeHTMLId": "6199",
+                    "storeId": "6199",
+                    "need": 414.9
+                },
+                {
+                    "storeHTMLId": "6221",
+                    "storeId": "6221",
+                    "need": 2.65
+                },
+                {
+                    "storeHTMLId": "6222",
+                    "storeId": "6222",
+                    "need": 2.65
+            }],
+        "numPackConfigs": 5,
+        "packConfigId": "PC:3"
+    }],
+    "globalSumRows": [
+    {
+        "lineId": 0,
+        "stycId": 1111,
+        "stycDesc": "Navyblue sweatshirt",
+        "packId": "PR_12345",
+        "mismatchUnder": 0,
+        "mismatchOver": 2
+    },
+    {
+        "lineId": 1,
+        "stycId": 1112,
+        "stycDesc": "Green sweatshirt",
+        "packId": "PR_22345",
+        "mismatchUnder": 1,
+        "mismatchOver": 4
+    },
+    {
+        "lineId": 2,
+        "stycId": 1113,
+        "stycDesc": "Orange sweatshirt",
+        "packId": "PR_32345",
+        "mismatchUnder": 2,
+        "mismatchOver": 1
+    }], 
+    "dcSumRows": [
+    {
+        "lineId": "0-0",
+        "stycId": 1111,
+        "stycDesc": "Navyblue sweatshirt",
+        "dc": "DC 1",
+        "packId": "PR_12345",
+        "remainingPacks": 1,
+        "mismatchUnder": 0,
+        "mismatchOver": 2
+    },
+    {
+        "lineId": "0-1",
+        "stycId": 1111,
+        "stycDesc": "Navyblue sweatshirt",
+        "dc": "DC 2",
+        "packId": "PR_1234",
+        "remainingPacks": 1,
+        "mismatchUnder": 0,
+        "mismatchOver": 2
+    },
+    {
+        "lineId": "1-0",
+        "stycId": 1112,
+        "stycDesc": "Green sweatshirt",
+        "dc": "DC 1",
+        "packId": "PR_12345",
+        "remainingPacks": 1,
+        "mismatchUnder": 1,
+        "mismatchOver": 4
+    },
+    {
+        "lineId": "1-1",
+        "stycId": 1112,
+        "stycDesc": "Green sweatshirt",
+        "dc": "DC 2",
+        "packId": "PR_22345",
+        "remainingPacks": 1,
+        "mismatchUnder": 1,
+        "mismatchOver": 4
+    },
+    {
+        "lineId": "2-0",
+        "stycId": 1113,
+        "stycDesc": "Orange sweatshirt",
+        "dc": "DC 1",
+        "packId": "PR_32345",
+        "remainingPacks": 1,
+        "mismatchUnder": 2,
+        "mismatchOver": 1
+    },
+    {
+        "lineId": "2-1",
+        "stycId": 1113,
+        "stycDesc": "Orange sweatshirt",
+        "dc": "DC 2",
+        "packId": "PR_32345",
+        "remainingPacks": 1,
+        "mismatchUnder": 2,
+        "mismatchOver": 1
+    }], 
+    "storeSumRows": [
+    {
+        "lineId": "0-0",
+        "stycId": 1111,
+        "stycDesc": "Navyblue sweatshirt",
+        "dc": "DC 1",
+        "storeId": "Store 1",
+        "packId": "PR_12345",
+        "numUnits": 10,
+        "mismatchUnder": 0,
+        "mismatchOver": 2
+    },
+    {
+        "lineId": "0-1",
+        "stycId": 1111,
+        "stycDesc": "Navyblue sweatshirt",
+        "dc": "DC 2",
+        "storeId": "Store 2",
+        "packId": "PR_12345",
+        "numUnits": 10,
+        "mismatchUnder": 0,
+        "mismatchOver": 2
+    },
+    {
+        "lineId": "0-2",
+        "stycId": 1111,
+        "stycDesc": "Navyblue sweatshirt",
+        "dc": "DC 2",
+        "storeId": "Store 3",
+        "packId": "PR_12345",
+        "numUnits": 10,
+        "mismatchUnder": 0,
+        "mismatchOver": 2
+    },
+    {
+        "lineId": "1-0",
+        "stycId": 1112,
+        "stycDesc": "Green sweatshirt",
+        "dc": "DC 1",
+        "storeId": "Store 1",
+        "packId": "PR_22345",
+        "numUnits": 7,
+        "mismatchUnder": 1,
+        "mismatchOver": 4
+    },
+    {
+        "lineId": "1-1",
+        "stycId": 1112,
+        "stycDesc": "Green sweatshir",
+        "dc": "DC 2",
+        "storeId": "Store 2",
+        "packId": "PR_22345",
+        "numUnits": 7,
+        "mismatchUnder": 1,
+        "mismatchOver": 4
+    },
+    {
+        "lineId": "1-2",
+        "stycId": 1112,
+        "stycDesc": "Green sweatshirt",
+        "dc": "DC 2",
+        "storeId": "Store 3",
+        "packId": "PR_22345",
+        "numUnits": 7,
+        "mismatchUnder": 1,
+        "mismatchOver": 4
+    },
+    {
+        "lineId": "2-0",
+        "stycId": 1113,
+        "stycDesc": "Orange sweatshirt",
+        "dc": "DC 1",
+        "storeId": "Store 1",
+        "packId": "PR_32345",
+        "numUnits": 8,
+        "mismatchUnder": 2,
+        "mismatchOver": 1
+    },
+    {
+        "lineId": "2-1",
+        "stycId": 1113,
+        "stycDesc": "Orange sweatshirt",
+        "dc": "DC 2",
+        "storeId": "Store 2",
+        "packId": "PR_32345",
+        "numUnits": 8,
+        "mismatchUnder": 2,
+        "mismatchOver": 1
+    },
+    {
+        "lineId": "2-2",
+        "stycId": 1113,
+        "stycDesc": "Orange sweatshirt",
+        "dc": "DC 2",
+        "storeId": "Store 3",
+        "packId": "PR_32345",
+        "numUnits": 8,
+        "mismatchUnder": 2,
+        "mismatchOver": 1
+    }], 
+    "sizeSumRows": [
+        {
+            "lineId": "0-0",
+            "stycId": 1111,
+            "stycDesc": "Navyblue sweatshirt",
+            "size": "XS",
+            "dc": "DC 1",
+            "storeId": "Store 1",
+            "need": 129,
+            "allocUnits": 126,
+            "mismatchUnder": 3,
+            "mismatchOver": 0 
+        },
+        {
+            "lineId": "0-1",
+            "stycId": 1111,
+            "stycDesc": "Navyblue sweatshirt",
+            "size": "S",
+            "dc": "DC 1",
+            "storeId": "Store 1",
+            "need": 182,
+            "allocUnits": 181,
+            "mismatchUnder": 1,
+            "mismatchOver": 0
+        },
+        {
+            "lineId": "0-2",
+            "stycId": 1111,
+            "stycDesc": "Navyblue sweatshirt",
+            "size": "M",
+            "dc": "DC 1",
+            "storeId": "Store 1",
+            "need": 235,
+            "allocUnits": 237,
+            "mismatchUnder": 0,
+            "mismatchOver": 2
+        },
+        {
+            "lineId": "0-3",
+            "stycId": 1111,
+            "stycDesc": "Navyblue sweatshirt",
+            "size": "L",
+            "dc": "DC 1",
+            "storeId": "Store 1",
+            "need": 242,
+            "allocUnits": 243,
+            "mismatchUnder": 0,
+            "mismatchOver": 1
+        },
+        {
+            "lineId": "0-4",
+            "stycId": 1111,
+            "stycDesc": "Navyblue sweatshirt",
+            "size": "XL",
+            "dc": "DC 1",
+            "storeId": "Store 1",
+            "need": 189,
+            "allocUnits": 194,
+            "mismatchUnder": 0,
+            "mismatchOver": 5
+        },
+        {
+            "lineId": "0-5",
+            "stycId": 1111,
+            "stycDesc": "Navyblue sweatshirt",
+            "size": "XS",
+            "dc": "DC 2",
+            "storeId": "Store 2",
+            "need": 140,
+            "allocUnits": 137,
+            "mismatchUnder": 3,
+            "mismatchOver": 0
+        },
+        {
+            "lineId": "0-6",
+            "stycId": 1111,
+            "stycDesc": "Navyblue sweatshirt",
+            "size": "S",
+            "dc": "DC 2",
+            "storeId": "Store 2",
+            "need": 193,
+            "allocUnits": 189,
+            "mismatchUnder": 4,
+            "mismatchOver": 0
+        },
+        {
+            "lineId": "0-7",
+            "stycId": 1111,
+            "stycDesc": "Navyblue sweatshirt",
+            "size": "M",
+            "dc": "DC 2",
+            "storeId": "Store 2",
+            "need": 246,
+            "allocUnits": 250,
+            "mismatchUnder": 0,
+            "mismatchOver": 4
+        },
+        {
+            "lineId": "0-8",
+            "stycId": 1111,
+            "stycDesc": "Navyblue sweatshirt",
+            "size": "L",
+            "dc": "DC 2",
+            "storeId": "Store 2",
+            "need": 231,
+            "allocUnits": 233,
+            "mismatchUnder": 0,
+            "mismatchOver": 2
+        },
+        {
+            "lineId": "0-9",
+            "stycId": 1111,
+            "stycDesc": "Navyblue sweatshirt",
+            "size": "XL",
+            "dc": "DC 2",
+            "storeId": "Store 2",
+            "need": 178,
+            "allocUnits": 175,
+            "mismatchUnder": 3,
+            "mismatchOver": 0
+        },
+        {
+            "lineId": "0-10",
+            "stycId": 1111,
+            "stycDesc": "Navyblue sweatshirt",
+            "size": "XS",
+            "dc": "DC 2",
+            "storeId": "Store 3",
+            "need": 114,
+            "allocUnits": 110,
+            "mismatchUnder": 4,
+            "mismatchOver": 0
+        },
+        {
+            "lineId": "0-11",
+            "stycId": 1111,
+            "stycDesc": "Navyblue sweatshirt",
+            "size": "S",
+            "dc": "DC 2",
+            "storeId": "Store 3",
+            "need": 167,
+            "allocUnits": 171,
+            "mismatchUnder": 0,
+            "mismatchOver": 4
+        },
+        {
+            "lineId": "0-12",
+            "stycId": 1111,
+            "stycDesc": "Navyblue sweatshirt",
+            "size": "M",
+            "dc": "DC 2",
+            "storeId": "Store 3",
+            "need": 220,
+            "allocUnits": 219,
+            "mismatchUnder": 1,
+            "mismatchOver": 0
+        },
+        { 
+            "lineId": "0-13",
+            "stycId": 1111,
+            "stycDesc": "Navyblue sweatshirt",
+            "size": "L",
+            "dc": "DC 2",
+            "storeId": "Store 3",
+            "need":257,
+            "allocUnits": 262,
+            "mismatchUnder": 0,
+            "mismatchOver": 5
+        },
+        {
+            "lineId": "0-14",
+            "stycId": 1111,
+            "stycDesc": "Navyblue sweatshirt",
+            "size": "XL",
+            "dc": "DC 2",
+            "storeId": "Store 3",
+            "need": 204,
+            "allocUnits": 201,
+            "mismatchUnder": 3,
+            "mismatchOver": 0
+        },
+        {
+            "lineId": "1-0",
+            "stycId": 1112,
+            "stycDesc": "Green sweatshirt",
+            "size": "XS",
+            "dc": "DC 1",
+            "storeId": "Store 1",
+            "need": 129,
+            "allocUnits": 131,
+            "mismatchUnder": 0,
+            "mismatchOver": 2
+        },
+        {
+            "lineId": "1-1",
+            "stycId": 1112,
+            "stycDesc": "Green sweatshirt",
+            "size": "S",
+            "dc": "DC 1",
+            "storeId": "Store 1",
+            "need": 182,
+            "allocUnits": 184,
+            "mismatchUnder": 0,
+            "mismatchOver": 2
+        },
+        {
+            "lineId": "1-2",
+            "stycId": 1112,
+            "stycDesc": "Green sweatshirt",
+            "size": "M",
+            "dc": "DC 1",
+            "storeId": "Store 1",
+            "need": 235,
+            "allocUnits": 238,
+            "mismatchUnder": 0,
+            "mismatchOver": 3
+        },
+        {
+            "lineId": "1-3",
+            "stycId": 1112,
+            "stycDesc": "Green sweatshirt",
+            "size": "L",
+            "dc": "DC 1",
+            "storeId": "Store 1",
+            "need": 242,
+            "allocUnits": 245,
+            "mismatchUnder": 0,
+            "mismatchOver": 3
+        },
+        {
+            "lineId": "1-4",
+            "stycId": 1112,
+            "stycDesc": "Green sweatshirt",
+            "size": "XL",
+            "dc": "DC 1",
+            "storeId": "Store 1",
+            "need": 189,
+            "allocUnits": 192,
+            "mismatchUnder": 0,
+            "mismatchOver": 3
+        },
+        {
+            "lineId": "1-5",
+            "stycId": 1112,
+            "stycDesc": "Green sweatshirt",
+            "size": "XS",
+            "dc": "DC 2",
+            "storeId": "Store 2",
+            "need": 115, 
+            "allocUnits": 117,
+            "mismatchUnder": 0,
+            "mismatchOver": 2
+        },
+        {
+            "lineId": "1-6",
+            "stycId": 1112,
+            "stycDesc": "Green sweatshirt",
+            "size": "S",
+            "dc": "DC 2",
+            "storeId": "Store 2",
+            "need": 168,
+            "allocUnits": 168,
+            "mismatchUnder": 0,
+            "mismatchOver": 0
+        },
+        {
+            "lineId": "1-7",
+            "stycId": 1112,
+            "stycDesc": "Green sweatshirt",
+            "size": "M",
+            "dc": "DC 2",
+            "storeId": "Store 2",
+            "need": 221,
+            "allocUnits": 225,
+            "mismatchUnder": 0,
+            "mismatchOver": 4
+        },
+        {
+            "lineId": "1-8",
+            "stycId": 1112,
+            "stycDesc": "Green sweatshirt",
+            "size": "L",
+            "dc": "DC 2",
+            "storeId": "Store 2",
+            "need": 256,
+            "allocUnits": 259,
+            "mismatchUnder": 0,
+            "mismatchOver": 3
+        },
+        {
+            "lineId": "1-9",
+            "stycId": 1112,
+            "stycDesc": "Green sweatshirt",
+            "size": "XL",
+            "dc": "DC 2",
+            "storeId": "Store 2",
+            "need": 203,
+            "allocUnits": 199,
+            "mismatchUnder": 4,
+            "mismatchOver": 0
+        },
+        {
+            "lineId": "1-10",
+            "stycId": 1112,
+            "stycDesc": "Green sweatshirt",
+            "size": "XS",
+            "dc": "DC 2",
+            "storeId": "Store 3",
+            "need": 131,
+            "allocUnits": 133,
+            "mismatchUnder": 0,
+            "mismatchOver": 2
+        },
+        {
+            "lineId": "1-11",
+            "stycId": 1112,
+            "stycDesc": "Green sweatshirt",
+            "size": "S",
+            "dc": "DC 2",
+            "storeId": "Store 3",
+            "need": 184,
+            "allocUnits": 187,
+            "mismatchUnder": 0,
+            "mismatchOver": 3
+        },
+        {
+            "lineId": "1-12",
+            "stycId": 1112,
+            "stycDesc": "Green sweatshirt",
+            "size": "M",
+            "dc": "DC 2",
+            "storeId": "Store 3",
+            "need": 237,
+            "allocUnits": 239,
+            "mismatchUnder": 0,
+            "mismatchOver": 2
+        },
+        {
+            "lineId": "1-13",
+            "stycId": 1112,
+            "stycDesc": "Green sweatshirt",
+            "size": "L",
+            "dc": "DC 2",
+            "storeId": "Store 3",
+            "need": 240,
+            "allocUnits": 237,
+            "mismatchUnder": 3,
+            "mismatchOver": 0
+        },
+        {
+            "lineId": "1-14",
+            "stycId": 1112,
+            "stycDesc": "Green sweatshirt",
+            "size": "XL",
+            "dc": "DC 2",
+            "storeId": "Store 3",
+            "need": 187,
+            "allocUnits": 188,
+            "mismatchUnder": 0,
+            "mismatchOver": 1
+        },
+        {
+            "lineId": "2-0",
+            "stycId": 1113,
+            "stycDesc": "Orange sweatshirt",
+            "size": "XS",
+            "dc": "DC 1",
+            "storeId": "Store 1",
+            "need": 127,
+            "allocUnits": 128,
+            "mismatchUnder": 0,
+            "mismatchOver": 1
+        },
+        {
+            "lineId": "2-1",
+            "stycId": 1113,
+            "stycDesc": "Orange sweatshirt",
+            "size": "S",
+            "dc": "DC 1",
+            "storeId": "Store 1",
+            "need": 180,
+            "allocUnits": 182,
+            "mismatchUnder": 0,
+            "mismatchOver": 2
+        },{
+            "lineId": "2-2",
+            "stycId": 1113,
+            "stycDesc": "Orange sweatshirt",
+            "size": "M",
+            "dc": "DC 1",
+            "storeId": "Store 1",
+            "need": 233,
+            "allocUnits": 236,
+            "mismatchUnder": 0,
+            "mismatchOver": 3
+        },
+        {
+            "lineId": "2-3",
+            "stycId": 1113,
+            "stycDesc": "Orange sweatshirt",
+            "size": "L",
+            "dc": "DC 1",
+            "storeId": "Store 1",
+            "need": 244,
+            "allocUnits": 239,
+            "mismatchUnder": 5,
+            "mismatchOver": 0
+        },
+        {
+            "lineId": "2-4",
+            "stycId":1113,
+            "stycDesc":"Orange sweatshirt",
+            "size":"XL",
+            "dc":"DC 1",
+            "storeId":"Store 1",
+            "need":191,
+            "allocUnits":194,
+            "mismatchUnder":0,
+            "mismatchOver":3
+        },
+        {
+            "lineId":"2-5",
+            "stycId":1113,
+            "stycDesc":"Orange sweatshirt",
+            "size":"XS",
+            "dc":"DC 2",
+            "storeId":"Store 2",
+            "need":133,
+            "allocUnits":133,
+            "mismatchUnder":0,
+            "mismatchOver":0
+        },
+        {
+            "lineId":"2-6",
+            "stycId":1113,
+            "stycDesc":"Orange sweatshirt",
+            "size":"S","dc":"DC 2",
+            "storeId":"Store 2",
+            "need":186,
+            "allocUnits":184,
+            "mismatchUnder":2,
+            "mismatchOver":0
+        },
+        {
+            "lineId":"2-7",
+            "stycId":1113,
+            "stycDesc":"Orange sweatshirt",
+            "size":"M",
+            "dc":"DC 2",
+            "storeId":"Store 2",
+            "need":239,
+            "allocUnits":241,
+            "mismatchUnder":0,
+            "mismatchOver":2
+        },
+        {
+            "lineId":"2-8",
+            "stycId":1113,
+            "stycDesc":"Orange sweatshirt",
+            "size":"L",
+            "dc":"DC 2",
+            "storeId":"Store 2",
+            "need":238,
+            "allocUnits":237,
+            "mismatchUnder":1,
+            "mismatchOver":0
+        },
+        {
+            "lineId":"2-9",
+            "stycId":1113,
+            "stycDesc":"Orange sweatshirt",
+            "size":"XL",
+            "dc":"DC 2",
+            "storeId":"Store 2",
+            "need":185,
+            "allocUnits":190,
+            "mismatchUnder":0,
+            "mismatchOver":5
+        },
+        {
+            "lineId":"2-10",
+            "stycId":1113,
+            "stycDesc":"Orange sweatshirt",
+            "size":"XS",
+            "dc":"DC 2",
+            "storeId":"Store 3",
+            "need":109,
+            "allocUnits":106,
+            "mismatchUnder":3,
+            "mismatchOver":0
+        },
+        {
+            "lineId":"2-11",
+            "stycId":1113,
+            "stycDesc":"Orange sweatshirt",
+            "size":"S",
+            "dc":"DC 2",
+            "storeId":"Store 3",
+            "need":162,
+            "allocUnits":166,
+            "mismatchUnder":0,
+            "mismatchOver":4
+        },
+        {
+            "lineId":"2-12",
+            "stycId":1113,
+            "stycDesc":"Orange sweatshirt",
+            "size":"M",
+            "dc":"DC 2",
+            "storeId":"Store 3",
+            "need":215,
+            "allocUnits":219,
+            "mismatchUnder":0,
+            "mismatchOver":4
+        },
+        {
+            "lineId":"2-13",
+            "stycId":1113,
+            "stycDesc":"Orange sweatshirt",
+            "size":"L",
+            "dc":"DC 2",
+            "storeId":"Store 3",
+            "need":262,
+            "allocUnits":261,
+            "mismatchUnder":1,
+            "mismatchOver":0
+        },
+        {
+            "lineId":"2-14",
+            "stycId":1113,
+            "stycDesc":"Orange sweatshirt",
+            "size":"XL",
+            "dc":"DC 2",
+            "storeId":"Store 3",
+            "need":209,
+            "allocUnits":205,
+            "mismatchUnder":4,
+            "mismatchOver":0
+    }]
+}
