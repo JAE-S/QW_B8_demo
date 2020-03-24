@@ -1,6 +1,6 @@
 // Import React
 // =========================================================
-import React from 'react';
+  import React from 'react';
 // Import Material Ui Components
 // =========================================================
   import { makeStyles } from '@material-ui/core/styles';
@@ -16,7 +16,8 @@ import React from 'react';
   import Grid from '@material-ui/core/Grid';
   import ModalData from "./modal_data";
   import Modal from '../Components/modal';
-  import MockGraph from '../Assets/images/Mock_graph_2.png';
+  // import MockGraph from '../Assets/images/Mock_graph_2.png';
+  import SplineChart from '../Components/SplineChart';
 
 // Test Data
 // =========================================================
@@ -135,7 +136,8 @@ function setAlert() {
                         <ModalData/>
                     </Grid>
                     <Grid item md={6} xs={12}>
-                        <img alt="Store 6001 Data" src={MockGraph} style={{maxWidth: "456px", width: "100%"}}/>
+                    <SplineChart/>
+                        {/* <img alt="Store 6001 Data" src={MockGraph} style={{maxWidth: "456px", width: "100%"}}/> */}
                     </Grid>
                 </Grid>
             </div>

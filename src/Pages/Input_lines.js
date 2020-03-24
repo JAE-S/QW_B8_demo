@@ -20,6 +20,7 @@
 // import { getThemeProps } from '@material-ui/styles';
 import data from "../Utils/test_data.json";
 import Modal from "../Components/modal"
+import SplineChart from '../Components/SplineChart';
 
 // Test Data
 // =========================================================
@@ -518,6 +519,7 @@ function packCongif4(){
           onChangePage={handleChangePage}
           onChangeRowsPerPage={handleChangeRowsPerPage}
         />
+        <SplineChart/>
       </Paper>
     );
   }

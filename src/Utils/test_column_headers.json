@@ -1,0 +1,49 @@
+{
+    "inputRowHeader": [
+        { 
+            "id": "lineid", 
+            "label": "Line ID", 
+            "minWidth": 100, 
+            "align": "left"
+          },
+          {
+            "id": "stycDesc",
+            "label": "Style-Color Desc",
+            "minWidth": 120,
+            "align": "center"
+          },
+          {
+            "id": "deliveryDt",
+            "label": "Delivery Date",
+            "minWidth": 120,
+            "align": "center"
+          },
+          {
+            "id": "sizeRange",
+            "label": "Size Range",
+            "minWidth": 100,
+            "align": "center"
+          },
+          {
+            "id": "storeDistro",
+            "label": "Store Distribution",
+            "align": "center"
+          },
+          {
+            "id": "style_color_need",
+            "label": "Style-Color Need",
+            "align": "center"
+          },
+          {
+            "id": "pack_configs_available",
+            "label": "# of Pack Configs Available",
+            "align": "center"
+          },
+          {
+            "id": "allocationParameters",
+            "label": "Allocation Parameters",
+            "align": "center"
+          }
+        ]
+        
+}
