@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import CanvasJSReact from '../../Assets/canvas_charts/canvasjs.react';
-import API from "../../Utils/API";
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 
@@ -9,132 +8,195 @@ class SplineChart extends Component {
         super(props); 
         this.state = {
             message: "Mouse Event",
-            dataPointsArray: [],
+            dataPointsArray: [
+                { y: 20, label: "X-SMALL", },
+                { y: 15, label: "SMALL", },
+                { y: 40, label: "MEDIUM" },
+                { y: 15, label: "LARGE"},
+                { y: 10, label: "X-LARGE"}
+            ],
         }
 
     }
 
     componentDidMount(){
         this.chartData();
+        
     }
     
     chartData = () => {
         var chart = this.chart;
 
-        API.fetchData()
-		.then((res) => {
-            let results = res.data
-            const dataArray = results.map((obj) => {
-                chart.render();
-                const { x,
-                        axisX, 
-                        y,
-                        yValue,
-                        
-                     } = obj;
+        // API.fetchData()
+		// .then((res) => {
+        //     let results = res.data
+        //     const dataArray = results.map((obj) => {
+        //         chart.render();
+        //         const { x,
+        //                 y,
+        //              } = obj;
                      
-                return {
-                    x,
-                    axisX,
-                    y,
-                    yValue,
-                }; 
+        //         return {
+        //             x,
+        //             y,
+        //         }; 
                 
-            });
-            console.log(dataArray)
+        //     });
+        //     console.log(dataArray)
             // this.setState({ message: "Mouse Down"});
-            this.setState({
-                    dataPointsArray: dataArray,
-                });
+            // this.setState({
+            //         dataPointsArray: dataPointsArray
+            //     });
 
             chart.render();
-            this.targetData();
-                console.log(this.state.dataPointsArray)
+            // var parentOffset = document.getElementById("canvasjs-react-chart-container-0").offset();
+            // document.getElementById("canvasjs-react-chart-container-0").onmousedown = function(){
+                
+            //     chart.isMouseDown = true;
+            //     console.log("chart mouse down", chart.isMouseDown )
+            //     getViewport()
+            //         function getViewport(e){
+
+            //             if(chart.isMouseDown && chart.draggingDataPoint){
+                            
+            //                 console.log("dragdatapoint", chart.draggingDataPoint)
+            //                 console.log(parentOffset)
+                            // chart.draggingDataPoint.y = (e.axisY[0].viewportMaximum - chart.draggingDataPoint.y) >
+                            //                                 (chart.draggingDataPoint.y - e.axisY[0].viewportMinimum) ?
+                            //                                     e.axisY[0].viewportMaximum :  e.axisY[0].viewportMinimum;
+                        // console.log(chart.draggingDataPoint.y)
+                        // } else {
+                        //     console.log("no data")
+                        // }
+                        //For updating the y value
+                        //     e.chart.draggingDataPoint.x = (e.axisX[0].viewportMaximum-e.chart.draggingDataPoint.x) >
+                        //                                 (e.chart.draggingDataPoint.x - e.axisX[0].viewportMinimum) ?
+                        //                                     e.axisX[0].viewportMaximum :  e.axisX[0].viewportMinimum;
+                        //     e.chart.draggingDataPoint.y = (e.axisY[0].viewportMaximum-e.chart.draggingDataPoint.y) >
+                        //                                 (e.chart.draggingDataPoint.y - e.axisY[0].viewportMinimum) ?
+                        //                                     e.axisY[0].viewportMaximum :  e.axisY[0].viewportMinimum;
+                        // }
+                    
+                        // if(!e.chart.options.axisY)
+                        //     e.chart.options.axisY = {};
+                        // if(!e.chart.options.axisX)
+                        //     e.chart.options.axisX = {};
+                    
+                        // e.chart.options.axisY.viewportMinimum = e.chart.options.axisY.viewportMaximum = null;
+                        // e.chart.options.axisX.viewportMinimum = e.chart.options.axisX.viewportMaximum = null;
+                        // e.chart.isMouseDown = false;
+                        // e.chart.draggingDataPoint = null;
+                    // }
+                
+        //    };
+            // this.targetData();
+                console.log("chart data", this.state.dataPointsArray)
                 
 
-            })
+            // })
             
     }
-
-    targetData = (event) => {
-        var record = false;
-        var snapDistance = 5;
-        var xValue, yValue, parentOffset, relX, relY;
-        var selected;
-        var newData = false;
-        var timerId = null;
-        var dataPointsTarget = this.state.dataPointsArray;
-        // var canvas = document.querySelector("#interactive-chart");
-
-		// canvas.onmousedown = function(event) {
-            if (dataPointsTarget) {
-            [].forEach.call( document.querySelectorAll('.canvasjs-chart-canvas'), function(event) {
-                    event.addEventListener('mousedown', function() {
-		                console.log('testing')
-		 
-                        parentOffset = document.getElementById("interactive-chart").getBoundingClientRect();
-                        console.log("this is parentOffest", parentOffset)
-                        relX = event.pageX - parentOffset.offsetLeft;
-                        relY = event.pageY - parentOffset.offsetTop;
-                        
-                        console.log("this is relX", relX )
-          
-            // xValue = Math.round(dataPointsTarget.axisX.convertPixelToValue(relX));
-            // yValue = Math.round(dataPointsTarget.axisY[0].convertPixelToValue(relY));
-            // var dps = dataPointsTarget.data[0].dataPoints;
-            // for (var i = 0; i < dps.length; i++) {
-            //     if ((xValue >= dps[i].x - snapDistance && xValue <= dps[i].x + snapDistance) &&
-            //     (yValue >= dps[i].y - snapDistance && yValue <= dps[i].y + snapDistance)) {
-            //     record = true;
-            //     selected = i;
-            //     break;
-            //     } else {
-            //     selected = null;
-            //     }
-            // }
-            // newData = (selected === null) ? true : false;
-            // if (newData) {
-            //     this.state.dataPointsArray.data[0].addTo("dataPoints", {
-            //     x: xValue,
-            //     y: yValue
-            //     });
-            //     this.state.dataPointsArray.axisX[0].set("maximum", Math.max(this.state.dataPointsArray.axisX[0].maximum, xValue + 30));
-            //     //this.state.dataPointsArray.render();
-            //     console.log(dps)
-            // }
-            }
-        
-                    )})
-        }
-    }
-
+    
 	render() {
 		const options = {
-			animationEnabled: true,
+            animationEnabled: true,
+            interactivityEnabled: true,
+            // rangeChanging: function getViewport(e){
+
+            //     if(e.chart.isMouseDown && e.chart.draggingDataPoint){
+            //       //For updating the y value
+            //           e.chart.draggingDataPoint.x = (e.axisX[0].viewportMaximum-e.chart.draggingDataPoint.x) >
+            //                                        (e.chart.draggingDataPoint.x - e.axisX[0].viewportMinimum) ?
+            //                                         e.axisX[0].viewportMaximum :  e.axisX[0].viewportMinimum;
+            //          e.chart.draggingDataPoint.y = (e.axisY[0].viewportMaximum-e.chart.draggingDataPoint.y) >
+            //                                        (e.chart.draggingDataPoint.y - e.axisY[0].viewportMinimum) ?
+            //                                         e.axisY[0].viewportMaximum :  e.axisY[0].viewportMinimum;
+            //      }
+            
+            //     if(!e.chart.options.axisY)
+            //         e.chart.options.axisY = {};
+            //     if(!e.chart.options.axisX)
+            //         e.chart.options.axisX = {};
+            
+            //     e.chart.options.axisY.viewportMinimum = e.chart.options.axisY.viewportMaximum = null;
+            //     e.chart.options.axisX.viewportMinimum = e.chart.options.axisX.viewportMaximum = null;
+            //     e.chart.isMouseDown = false;
+            //     e.chart.draggingDataPoint = null;
+            // },
 			title:{
-				text: "Monthly Sales - 2017"
+                text: "Size Allocations",
+                fontFamily: "Arial",
+                fontColor: "rgb(50, 122, 183)",
+            
 			},
             subtitles: [{
-                text: "Click anywhere on plotarea to add new Data Points"
+                // text: ""
             }],
-            axisY: {
-				title: "Price in USD",
-				prefix: "$",
-				includeZero: false
-			},
-            data: [{
-                type: "line",
-                cursor: "move",
-				xValueFormatString: "MMM YYYY",
-				yValueFormatString: "$#,##0.00",
-				dataPoints: this.state.dataPointsArray,
-			}]
+            axisX: {
+				title: "",
+                includeZero: false,
+                crosshair:{
+                    enabled: true,
+                    snapToDataPoint: true
+                }     
+            },
+            axisY:{
+                minimum: 0,
+                // suffix: " %",
+                maximum: 100,
+            },
+            data: [
+                {
+                    type: "line",
+                    cursor: "move",
+                    toolTipContent: "{y} {label}",
+                    mouseover:  function mouseoverHandler(e){
+                        console.log("In mouse over")
+                        e.chart.draggingDataPoint = e.dataPoint;
+                     },
+                    mouseout: function mouseoutHandler(e){
+                        console.log("In mouse out")
+                        if(!e.chart.isMouseDown)
+                           e.chart.draggingDataPoint = null;
+                    },
+                    dataPoints: [
+                        { y: 5, label: "X-SMALL",  mousemove : function(e){
+                            alert(  e.dataSeries.type + ", dataPoint { x:" + e.dataPoint.x + ", y: "+ e.dataPoint.y + " }" );   },},
+                        { y: 30, label: "SMALL", },
+                        { y: 25, label: "MEDIUM" },
+                        { y: 8, label: "LARGE"},
+                        { y: 32, label: "X-LARGE"},
+                    ],
+                },
+                    {
+                        //It's a dummy invisible dataseries only for the purpose of increasing x or y value even upto samll values
+                        toolTipContent:null,
+                        color:"transparent",
+                        dataPoints:[{x:.1, y:.1},{x:.2, y:.2}]
+                     },
+    
+                    // click: this.handleClick
+                
+                {
+                    type: "line",
+                    cursor: "move",
+                    toolTipContent: "{y} {label}",
+                    dataPoints: [
+                        { y: 5, label: "X-SMALL",  mousemove : function(e){
+                            alert(  e.dataSeries.type + ", dataPoint { x:" + e.dataPoint.x + ", y: "+ e.dataPoint.y + " }" );   },},
+                        { y: 30, label: "SMALL", },
+                        { y: 25, label: "MEDIUM" },
+                        { y: 8, label: "LARGE"},
+                        { y: 32, label: "X-LARGE"},
+                    ]
+                }
+            ]
 		}
 		
 		return (
 		<div>
-			<h1 id="interactive-chart">React Spline Chart</h1>
-            <CanvasJSChart  options={options} 
+			{/* <h1 id="interactive-chart">Spline Chart</h1> */}
+            <CanvasJSChart  id="gameCanvas" options={options} 
                  onRef={ref => this.chart = ref} 
                 //  onMouseDown={this.handleEvent} onMouseUp={ this.handleEvent }
 			/>
@@ -145,4 +207,6 @@ class SplineChart extends Component {
 }
 
 export default SplineChart;
+
+
 

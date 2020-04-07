@@ -33,3 +33,7 @@ h2 {
     max-width: 1000px!important;
     width: 100%!important;
 }
+
+.canvasjs-chart-credit {
+    display: none
+}

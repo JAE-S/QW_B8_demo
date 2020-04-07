@@ -519,7 +519,6 @@ function packCongif4(){
           onChangePage={handleChangePage}
           onChangeRowsPerPage={handleChangeRowsPerPage}
         />
-        <SplineChart/>
       </Paper>
     );
   }
